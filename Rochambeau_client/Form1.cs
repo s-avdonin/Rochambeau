@@ -47,16 +47,15 @@ namespace Rochambeau_client
 		// Send turn to server
 		private void makeTurn(string turn)
 		{
-			//lblMessage.Text = "Waiting for opponent's turn.";
+			// send turn to server
 			try
 			{
 				streamWriter.WriteLine(turn);
 				streamWriter.Flush();
-
 				blockButtons(); // disable turn buttons
-								// TODO don't get answer! 
-
-				// receive server's answer
+			
+			// receive server's answer
+				lblMessage.Text = "";
 				while (true)
 				{
 					answer = streamReader.ReadLine();
@@ -71,7 +70,7 @@ namespace Rochambeau_client
 			}
 			catch
 			{
-				MessageBox.Show("Error");
+				MessageBox.Show("Error in \"makeTurn\" function");
 			}
 		}
 
@@ -82,7 +81,7 @@ namespace Rochambeau_client
 
 		}
 
-		// unblock turn buttons & block Replay button
+		// unblock turn buttons 
 		private void unblockButtons()
 		{
 			btn1Rock.Enabled = btn2Scissors.Enabled = btn3Paper.Enabled = true;
@@ -92,13 +91,7 @@ namespace Rochambeau_client
 
 		private void btn1Rock_Click(object sender, EventArgs e)
 		{
-			wait();
 			makeTurn("1");
-		}
-
-		private void wait()
-		{
-			lblMessage.Text = "Waiting";
 		}
 
 		private void btn2Scissors_Click(object sender, EventArgs e)

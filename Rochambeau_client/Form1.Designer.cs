@@ -40,7 +40,6 @@
 			this.btn3Paper = new System.Windows.Forms.Button();
 			this.lblStatus = new System.Windows.Forms.Label();
 			this.lblMessage = new System.Windows.Forms.Label();
-			this.btnReplay = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lblServerIp
@@ -149,23 +148,11 @@
 			this.lblMessage.TabIndex = 7;
 			this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// btnReplay
-			// 
-			this.btnReplay.Location = new System.Drawing.Point(351, 180);
-			this.btnReplay.Name = "btnReplay";
-			this.btnReplay.Size = new System.Drawing.Size(55, 23);
-			this.btnReplay.TabIndex = 8;
-			this.btnReplay.Text = "Replay";
-			this.btnReplay.UseVisualStyleBackColor = true;
-			this.btnReplay.Visible = false;
-			this.btnReplay.Click += new System.EventHandler(this.btnReplay_Click);
-			// 
 			// Rochambeau
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(418, 208);
-			this.Controls.Add(this.btnReplay);
 			this.Controls.Add(this.lblMessage);
 			this.Controls.Add(this.lblStatus);
 			this.Controls.Add(this.btn3Paper);
@@ -201,7 +188,6 @@
 		private System.Windows.Forms.Button btn3Paper;
 		private System.Windows.Forms.Label lblStatus;
 		private System.Windows.Forms.Label lblMessage;
-		private System.Windows.Forms.Button btnReplay;
 	}
 }
 
