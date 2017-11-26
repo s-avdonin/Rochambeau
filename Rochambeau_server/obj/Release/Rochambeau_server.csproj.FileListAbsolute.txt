@@ -1,0 +1,6 @@
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\bin\Release\Rochambeau_server.exe.config
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\bin\Release\Rochambeau_server.exe
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\bin\Release\Rochambeau_server.pdb
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\obj\Release\Rochambeau_server.exe
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\obj\Release\Rochambeau_server.pdb
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\obj\Release\Rochambeau_server.csprojResolveAssemblyReference.cache

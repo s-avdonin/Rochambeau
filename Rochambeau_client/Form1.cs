@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Windows.Forms;
@@ -17,11 +18,14 @@ namespace Rochambeau_client
 		public Rochambeau()
 		{
 			InitializeComponent();
+			// setting local IP into  server IP textbox
+			txtServerIp.Text = getMyIp().ToString();
 		}
 
 		// Connecting to server
 		private void btnConnect_Click(object sender, EventArgs e)
 		{
+  
 			try
 			{
 				// trying to start connection to server
@@ -32,6 +36,8 @@ namespace Rochambeau_client
 				streamWriter = new StreamWriter(networkStream);
 				// showing that we've connected succesfully
 				lblStatus.Text = ("Connected to server at " + socketForServer.Client.RemoteEndPoint.ToString());
+                // get player name
+                GetName();
 				// change buttons & boxes accessibility mode 
 				btnConnect.Enabled = false;
 				txtPort.Enabled = txtServerIp.Enabled = false;
@@ -106,15 +112,63 @@ namespace Rochambeau_client
 
 		private void Rochambeau_FormClosing(object sender, FormClosingEventArgs e)
 		{
-			streamReader.Close();
-			streamWriter.Close();
-			networkStream.Close();
-			socketForServer.Close();
+			if(streamReader != null) streamReader.Close();
+			if (streamWriter != null) streamWriter.Close();
+			if (networkStream != null) networkStream.Close();
+			if (socketForServer != null) socketForServer.Close();
 		}
 
 		private void btnReplay_Click(object sender, EventArgs e)
 		{
 			unblockButtons();
 		}
+
+		private static IPAddress getMyIp()
+		{
+			IPAddress[] allMyIp = Dns.GetHostAddresses(Dns.GetHostName());
+			IPAddress myInetIp = allMyIp[0];
+			foreach (IPAddress item in allMyIp)
+			{
+				if (item.AddressFamily == AddressFamily.InterNetwork)
+				{
+					myInetIp = item;
+				}
+			}
+			return myInetIp;
+		}
+
+        private void GetName()
+        {
+            try
+            {
+                // send request "name" to server 
+                streamWriter.WriteLine("name");
+                streamWriter.Flush();
+                // receive answer from server 
+                while (true)
+                {
+                    answer = streamReader.ReadLine();
+                    if (answer == null)
+                    {
+                        break;
+                    }
+                // set application name
+                    this.Text += " - " + answer;
+                    // Show hello message
+                    MessageBox.Show("Welcome to the Rochambeau, " + answer + "!");
+                    break;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Failed to get name.");
+            }
+        }
+
+        private void Rochambeau_Load(object sender, EventArgs e)
+        {
+
+        }
+
 	}
 }

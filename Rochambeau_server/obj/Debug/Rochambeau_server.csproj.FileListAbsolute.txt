@@ -1,0 +1,11 @@
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\bin\Debug\Rochambeau_server.exe.config
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\bin\Debug\Rochambeau_server.exe
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\bin\Debug\Rochambeau_server.pdb
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\obj\Debug\Rochambeau_server.exe
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_server\obj\Debug\Rochambeau_server.pdb
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_server\bin\Debug\Rochambeau_server.exe.config
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_server\obj\Debug\Rochambeau_server.exe
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_server\obj\Debug\Rochambeau_server.pdb
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_server\bin\Debug\Rochambeau_server.exe
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_server\bin\Debug\Rochambeau_server.pdb
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_server\obj\Debug\Rochambeau_server.csprojResolveAssemblyReference.cache

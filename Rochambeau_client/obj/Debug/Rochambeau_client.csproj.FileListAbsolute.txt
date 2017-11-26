@@ -1,0 +1,17 @@
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_client\bin\Debug\Rochambeau_client.exe.config
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_client\bin\Debug\Rochambeau_client.exe
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_client\bin\Debug\Rochambeau_client.pdb
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.Properties.Resources.resources
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.csproj.GenerateResource.Cache
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.exe
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.pdb
+E:\Projects\2017 - projects\Programming at Internet\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.Rochambeau.resources
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_client\bin\Debug\Rochambeau_client.exe.config
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_client\bin\Debug\Rochambeau_client.exe
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_client\bin\Debug\Rochambeau_client.pdb
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.csprojResolveAssemblyReference.cache
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.Rochambeau.resources
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.Properties.Resources.resources
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.csproj.GenerateResource.Cache
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.exe
+D:\Учеба\Програмування в Інтернет\Rochambeau_server\Rochambeau_client\obj\Debug\Rochambeau_client.pdb
